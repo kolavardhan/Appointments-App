@@ -1,0 +1,150 @@
+.Appointments-bg {
+  height: 100vh;
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.Appointments-card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 480px;
+  max-height: auto;
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-1 {
+  height: 300px;
+  width: 90%;
+  border: none;
+  border-bottom: 1.5px solid #b5b7c4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-01 {
+  height: 90%;
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.s01-title {
+  color: #171f46;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.form-box {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-box {
+  height: 60px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  color: #b5b7c4;
+}
+
+.input-style {
+  height: 35px;
+  border: 1.5px solid #b5b7c4;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.section-02 {
+  height: 90%;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.s02-img {
+  height: 100%;
+}
+
+.section-2 {
+  min-height: 160px;
+  max-height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-section {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ts-title {
+  color: #171f46;
+}
+
+.starred-btn {
+  border-radius: 12px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.starred-btn-active {
+  background-color: #9796f0;
+  color: #ffffff;
+  border: none;
+}
+
+.starred-btn-inactive {
+  background: none;
+  border: 1.5px solid #9796f0;
+  color: #9796f0;
+}
+
+.appointmentItem-container {
+  min-height: 110px;
+  max-height: auto;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
