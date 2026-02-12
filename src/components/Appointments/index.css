@@ -72,6 +72,7 @@ label {
   border-radius: 5px;
   outline: none;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .add-btn {
